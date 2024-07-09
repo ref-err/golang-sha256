@@ -23,11 +23,11 @@ func main() {
 	// check for arguments
 	if len(os.Args) < 2 {
 		if runtime.GOOS == "windows" {
-			fmt.Println("Usage: sha256.exe [FILE | \\PATH\\TO\\FILE]")
-			os.Exit(1)
+			fmt.Println("Usage: " + filepath.Base(os.Args[0]) + " [FILE | \\PATH\\TO\\FILE]")
+			os.Exit(0)
 		} else {
-			fmt.Println("Usage: sha256 [FILE | /PATH/TO/FILE]")
-			os.Exit(1)
+			fmt.Println("Usage: " + filepath.Base(os.Args[0]) + " [FILE | /PATH/TO/FILE]")
+			os.Exit(0)
 		}
 
 	}
