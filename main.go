@@ -44,7 +44,7 @@ func main() {
 		os.Exit(1)
 	} else if err != nil {
 		fmt.Println("Error reading file: ", err)
-		fmt.Println("This is unhandled error, so if you see this, report error to the owner")
+		fmt.Println("This is unhandled error, so if you see this, report error to the developer")
 		os.Exit(1)
 	}
 
