@@ -27,6 +27,8 @@ sha256.exe example.txt --save # or -s
 # On Linux
 ./sha256 example.txt --save # or -s
 ```
+##### _Replace sha256 with your executable name._
+
 This will generate the SHA-256 hash for the `example.txt` file and save it to a file named `example.txt.sha256`.
 
 ## Building and Running
