@@ -38,6 +38,9 @@ To build this program, you'll need to have Go installed on your system. You can 
 go build main.go
 ```
 
+## Current Issues
+- Eats a lot of memory if processing large files _(and by a lot, I mean, a LOT)_.
+
 ## License
 
 This program is licensed under the [MIT License](https://opensource.org/licenses/MIT).
